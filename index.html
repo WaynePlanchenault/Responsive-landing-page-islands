@@ -3,12 +3,20 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
-        <link rel="stylesheet" href="css/style.css">
+
+        <!--========== SWIPER CSS ==========-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
 
         <title>Responsive Landing Page Islands</title>
     </head>
     <body>
+        <!--========== HEADER ==========-->
         <header class="header">
             <nav class="nav bd-container">
                 <a href="#" class="nav__logo">Travel</a>
@@ -34,7 +42,7 @@
                 <div class="swiper-wrapper">
                     <!--========== ISLANDS 1 ==========-->
                     <section class="islands swiper-slide">
-                        <img src="img/borabora.jpg" alt="" class="islands__bg">
+                        <img src="assets/img/borabora.jpg" alt="" class="islands__bg">
 
                         <div class="islands__container bd-container">
                             <div class="islands__data">
@@ -54,7 +62,7 @@
         
                     <!--========== ISLANDS 2 ==========-->
                     <section class="islands swiper-slide">
-                        <img src="img/bali.jpg" alt="" class="islands__bg">
+                        <img src="assets/img/bali.jpg" alt="" class="islands__bg">
 
                         <div class="islands__container bd-container">
                             <div class="islands__data">
@@ -74,7 +82,7 @@
                     
                     <!--========== ISLANDS 3 ==========-->
                     <section class="islands swiper-slide">
-                        <img src="img/palawan.jpg" alt="" class="islands__bg">
+                        <img src="assets/img/palawan.jpg" alt="" class="islands__bg">
 
                         <div class="islands__container bd-container">
                             <div class="islands__data">
@@ -92,8 +100,8 @@
                         </div>
                     </section>
 
-                     <!--========== ISLANDS POPUP ==========-->
-                     <div class="islands__popup" id="popup">
+                    <!--========== ISLANDS POPUP ==========-->
+                    <div class="islands__popup" id="popup">
                         <div>
                             <div class="islands__popup-close" id="popup-close">
                                 <i class='bx bx-x'></i>
@@ -108,13 +116,20 @@
             <!--========== CONTROLS ==========-->
             <div class="controls gallery-thumbs">
                 <div class="controls__container swiper-wrapper">
-                    <img src="img/borabora.jpg" alt="" class="controls__img swiper-slide">
-                    <img src="img/bali.jpg" alt="" class="controls__img swiper-slide">
-                    <img src="img/palawan.jpg" alt="" class="controls__img swiper-slide">
+                    <img src="assets/img/borabora.jpg" alt="" class="controls__img swiper-slide">
+                    <img src="assets/img/bali.jpg" alt="" class="controls__img swiper-slide">
+                    <img src="assets/img/palawan.jpg" alt="" class="controls__img swiper-slide">
                 </div>
             </div>
         </main>
 
-    <script src="js/script.js"></script>
-</body>
+        <!--========== GSAP ==========-->
+        <script src="assets/js/gsap.min.js"></script>
+
+        <!--========== SWIPER JS ==========-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
 </html>
